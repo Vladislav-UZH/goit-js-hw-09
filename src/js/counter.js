@@ -24,13 +24,6 @@ class Counter {
         this.counterValueRef.textContent = this.counterValue;
     }
 }
-
-Notiflix.Notify.success(
-  'Click Me',
-  function cb() {
-    // callback
-  },
-);
 new Counter('#counter');
 // new Counter('#counter1')
 // new Counter('#counter2')
